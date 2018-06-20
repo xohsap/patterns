@@ -1,5 +1,5 @@
-public class Beagle implements Animals {
-    public void bark(){                 //Бигль гавкает
+public class Beagle implements BarkBark {    //Класс Бигля
+    public void bark(){                 //Бигль умеет гавкать
         System.out.println("BeagleBark");
     }
 }
